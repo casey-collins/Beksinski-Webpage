@@ -1,0 +1,55 @@
+#mainBackground {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.nav-wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div h2 {
+    color: #fff;
+}
+
+body {
+    background-image: url(https://leoplaw.com/wp-content/uploads/2009/08/l_7e6a23eed7879a1ecd8c3ede501600fd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#bio_card {
+    margin: 25px 25px;
+}
+
+.artist {
+    padding: 10px 0px 10px 10px;
+}
+
+.welcome {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+h1 {
+    color: #fff;
+}
+
+.gallery-item {
+    padding: 0 !important;
+    padding-right: 0.5rem !important;
+    margin-bottom: 0.5rem;
+}
+
+.modal {
+    height: 80vh !important;
+    width: 95vw !important;
+}
+
+.modal-image {
+    width: auto;
+    height: 90% !important;
+}
+
+@media screen and (min-width: 600px) {}
