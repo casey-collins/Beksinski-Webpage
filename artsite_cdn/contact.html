@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en" class="#6d4c41 brown darken-1">
+
+<head>
+    <meta charset="utf-8">
+    <title>Beksinski's Illustration: Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="site.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper #6d4c41 brown darken-1">
+            <img id="nav_logo" src="images/art_logo.png" alt="Logo">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="main_page.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav #757575 grey darken-1" id="mobile-demo">
+        <li><a href="main_page.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="welcome #bdbdbd grey lighten-1" id="page_title">
+        <h1 class="center-align">Contact the Artist</h1>
+    </div>
+
+    <div class="row #424242 grey darken-3" id="formdiv">
+        <p id="form-head">If you would like to discuss commissions, please fill out the information below to send your message, and the artist will contact you within 2 to 3 business days.</p>
+        <form class="col s12 #424242 grey darken-3">
+            <div class="row">
+                <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input placeholder="Jane" id="first_name" type="text" class="validate" data-length="15" maxlength="15">
+                    <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s12 m6">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input placeholder="Doe" id="last_name" type="text" class="validate" data-length="15" maxlength="15">
+                    <label for="last_name">Last Name</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix ">email</i>
+                    <input placeholder="me@email.com" id="email" type="email" class="validate" data-length="20" maxlength="20">
+                    <label for="email">Email Address</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">message</i>
+                    <textarea id="textarea2" class="materialize-textarea" data-length="150" maxlength="150"></textarea>
+                    <label for="textarea2">Message</label>
+                </div>
+            </div>
+            <button class="btn waves-effect waves-light right #f57c00 orange darken-2" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+            </button>
+        </form>
+    </div>
+
+    <footer class="page-footer #6d4c41 brown darken-1">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <h5 class="white-text">For more information about the artist, you can click the links below:</h5>
+                    <p>**Disclaimer** Some of his works are graphic and may be sensitive to certain audiences.</p>
+                    <p id="preLink">Learn more:
+                        <a href="https://en.wikipedia.org/wiki/Zdzis%C5%82aw_Beksi%C5%84ski"> https://en.wikipedia.org/wiki/Zdzislaw_Beksinski</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <p>Credit for all artwork belongs to Zdzislaw Beksinski</p>
+                <p>Website created using
+                    <a href="https://materializecss.com/about.html">Materialize</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="artWeb.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const counter = document.querySelectorAll("input#first_name, input#last_name, input#email, input#telephone, textarea#textarea2");
+            M.CharacterCounter.init(counter);
+        });
+    </script>
+
+</body>
+
+</html>

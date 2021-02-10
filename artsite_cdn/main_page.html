@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang="en" class="#6d4c41 brown darken-1">
+
+<head>
+    <meta charset="utf-8">
+    <title>Beksinski's Illustration: Welcome</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="site.css">
+</head>
+
+<body class="#bdbdbd grey lighten-1">
+    <nav class="sidenav-trigger">
+        <div class="nav-wrapper #6d4c41 brown darken-1">
+            <img id="nav_logo" src="images/art_logo.png" alt="Logo">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="main_page.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav #757575 grey darken-1" id="mobile-demo">
+        <li><a href="main_page.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <div class="welcome #bdbdbd grey lighten-1 " id="page_title">
+        <h1 class="center-align">Welcome to Beksinski's Gallery!</h1>
+    </div>
+
+    <div class="col m7 hide-on-med-and-down bio_card">
+        <h2 class="header">About the Artist</h2>
+        <div class="card horizontal">
+            <div class="card-image #757575 grey darken-1">
+                <a class="waves-effect waves-light modal-trigger" href="#modal1">
+                    <img class="artist" src="images/artist.jpg" alt="Photograph of Beksinski">
+                </a>
+            </div>
+            <div class="card-stacked #757575 grey darken-1">
+                <div class="card-content">
+                    <p>Zdzislaw Beksinski is a Polish based artist who studied architecture in Krakow in the early 1950’s. While he is best known as a painter, he is skilled in many artistic mediums such as photography, sculpture, and digital media. Unsatisfied
+                        with how limiting photographic editing can be at the time, he turned to painting.
+                    </p>
+                    <br>
+                    <p>His work is in the style of Dystopian Surrealism, with each piece depicting nightmarish landscapes and figures. Beksinski put a strong emphasis on realism in his works; he wishes to paint his dreams as if he were taking photos of them.
+                        While his pieces are described as dark, depressing, and downright graphic, one can gather a sense of beauty that conflicts with their bleak tones. His paintings have no specific meaning or hidden-message behind them, and prefers
+                        to let the viewers interpret the works in their own way; which is why most of his pieces are untitled.
+                    </p>
+                    <br>
+                    <p>His primary source of inspiration comes from his dreams and music. He often listens to classical music while working in his studio, and uses his photographs to carefully plan every aspect of his pieces.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col s12 hide-on-large-only bio_card">
+        <h2 class="header">About the Artist</h2>
+        <div class="card vertical #757575 grey darken-1" id="vertical-card">
+            <div class="card-image #757575 grey darken-1 center-align">
+                <a class="waves-effect waves-light modal-trigger" href="#modal1">
+                    <img class="artist" src="images/artist.jpg" alt="Photograph of Beksinski">
+                </a>
+            </div>
+            <div class="card-stacked #757575 grey darken-1" id="biobox">
+                <div class="card-content">
+                    <p>Zdzislaw Beksinski is a Polish based artist who studied architecture in Krakow in the early 1950’s. While he is best known as a painter, he is skilled in many artistic mediums such as photography, sculpture, and digital media. Unsatisfied
+                        with how limiting photographic editing can be at the time, he turned to painting.
+                    </p>
+                    <br>
+                    <p>His work is in the style of Dystopian Surrealism, with each piece depicting nightmarish landscapes and figures. Beksinski put a strong emphasis on realism in his works; he wishes to paint his dreams as if he were taking photos of them.
+                        While his pieces are described as dark, depressing, and downright graphic, one can gather a sense of beauty that conflicts with their bleak tones. His paintings have no specific meaning or hidden-message behind them, and prefers
+                        to let the viewers interpret the works in their own way; which is why most of his pieces are untitled.
+                    </p>
+                    <br>
+                    <p>His primary source of inspiration comes from his dreams and music. He often listens to classical music while working in his studio, and uses his photographs to carefully plan every aspect of his pieces.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal1" class="modal">
+        <div class="modal-content center-align">
+            <img class="artist_modal responsive-img" src="images/artist.jpg" alt="Photograph of Zdzislaw Beksinski">
+            <p>Photograph of Zdzislaw Beksinski</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+    </div>
+
+    <footer class="page-footer #6d4c41 brown darken-1">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <h5 class="white-text">For more information about the artist, you can click the links below:</h5>
+                    <p>**Disclaimer** Some of his works are graphic and may be sensitive to certain audiences.</p>
+                    <p id="preLink">Learn more:
+                        <a href="https://en.wikipedia.org/wiki/Zdzis%C5%82aw_Beksi%C5%84ski"> https://en.wikipedia.org/wiki/Zdzislaw_Beksinski</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <p>Credit for all artwork belongs to Zdzislaw Beksinski</p>
+                <p>Website created using
+                    <a href="https://materializecss.com/about.html">Materialize</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="artWeb.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.materialboxed').materialbox();
+        });
+    </script>
+
+</body>
+
+</html>
